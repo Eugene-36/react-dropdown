@@ -63,7 +63,6 @@ export const Dropdown = () => {
 
       //сначала где хотим
       const menuRect = menuEl.getBoundingClientRect(); // размеры меню
-      console.log('menuRect', menuRect);
       let top = trigger.bottom + GAP; //под кнопкой
       let left = trigger.right - menuRect.width; //по правому краю кнопки
 
