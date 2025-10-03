@@ -1,8 +1,7 @@
 .dropdown-5 {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
-  background: darkseagreen;
+  grid-template-columns: auto 1fr repeat(4, auto);
   place-items: center;
   height: 72px;
 }
@@ -121,4 +120,12 @@
 .drive {
   display: flex;
   align-items: center;
+}
+.wrapper {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+section {
+  background: cadetblue;
 }
